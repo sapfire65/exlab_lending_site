@@ -87,6 +87,8 @@ def browser(request):
 
 '''
  
-pytest -v -s  --tb=line --reruns 1  --browser_name=chrome --width_window=1920 --height_window=700 --language=ru --headless=true  test*
+pytest -v -s  --tb=line --reruns 1  --browser_name=chrome --width_window=1920 --height_window=700 --language=ru 
+--headless=true  test* --alluredir allureres; allure serve allureres
+
 
 '''
