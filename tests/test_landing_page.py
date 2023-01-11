@@ -222,4 +222,3 @@ class TestMyLandingPage:
     def test_51_footer(self, browser):
         page = LandingPage(browser)
         page.footer_text_mail_is_displayed()
-
