@@ -1,5 +1,5 @@
 [![N|Solid](https://github.com/sapfire65/exlab_lending_site/blob/main/files_for_readme/logo_black.png?raw=true)](https://exlab.team)
-## _ _UI - tests  |  ExLab Community site_
+## _ _UI - tests  /  ExLab Community site_
 
 | Files                             | readme                                      |
 |-----------------------------------|---------------------------------------------|
