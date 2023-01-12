@@ -16,7 +16,8 @@ pip install --upgrade pip; python -m pip install -r requirements.txt; pip list
 ```
 ### _ _START all TESTS_
 ```sh
-pytest -v -s  --tb=line --reruns 1  --browser_name=chrome --width_window=1920 --height_window=700 --headless=true --alluredir allureres  test* 
+pytest -v -s  --tb=line --reruns 1  --browser_name=chrome --width_window=1920 --height_window=700 
+--headless=true --alluredir allureres  test* 
 ```
 ### _ _Генерация отчета из папки allureres_
 ```shell 
