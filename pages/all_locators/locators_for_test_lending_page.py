@@ -73,7 +73,7 @@ class BlockHelpProject:
     BUTTON_BOOSTY = (By.XPATH, '(//div[@class="sc-bWXABl klepWn"]/child::*)[1]')
     BUTTON_PATREON = (By.XPATH, '(//div[@class="sc-bWXABl klepWn"]/child::*)[2]')
     BOOSTY_LINCK_EXLAB_PAGES = 'https://boosty.to/exlab_startup'
-    BOOSTY_PAGE_ATRIBUT = (By.XPATH, '//img[@class="UserCard_avatar_YGLc_"]')
+    BOOSTY_PAGE_ATRIBUT = (By.XPATH, '//span[@class="Link_block_f6iQc"]/h1[text()="ExLab"]')
     PATRION_LINCK_EXLAB_PAGES = 'https://link_na_patrion.ru/'
 
 

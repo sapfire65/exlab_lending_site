@@ -93,7 +93,7 @@ class BasePage(object):
 
             text_in = self.browser.find_element(how, f'({what})[{i}]').text
 
-            if isinstance(text_in, str):
+            if type(text_in) == str:
                 # Проверка видимости текста
                 try:
                     WebDriverWait(self.browser, self.waiting_time).until(
